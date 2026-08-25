@@ -1,8 +1,0 @@
-<script>
-fetch('https://www.lookfantastic.com/account/graphql', {
-  method: 'POST',
-  credentials: 'include',
-  headers: {'Content-Type': 'text/plain'},
-  body: JSON.stringify({query: 'mutation { emptyBasket(settings: {currency: GBP, shippingDestination: GB}) { id totalQuantity } }'})
-});
-</script>
